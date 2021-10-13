@@ -1,0 +1,16 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+azure-functions
+azure.servicebus == 7.0.0
+pymongo==3.11.3
+requests==2.19.1
+pandas
+numpy
+datetime
+pytz
+typing
+sklearn
+uuid
+flask
+redis
+scipy
+statsmodels == 0.12.2

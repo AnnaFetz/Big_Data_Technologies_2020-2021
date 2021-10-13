@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bdt2021:
+    image: bdt2021
+    build:
+      context: .
+      dockerfile: ./Dockerfile
